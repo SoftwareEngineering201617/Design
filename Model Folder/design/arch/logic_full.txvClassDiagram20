@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhiwnfq2wl-1r6hij">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="logic_full"/>
+		<node uin="156bx8iwnhkobze3wowb">
+			<property name="$metaclass" value="Guide"/>
+			<property name="$name" value="Guide1"/>
+			<property name="position" value="463"/>
+			<property name="horizontal" value="false"/>
+		</node>
+		<reference referencedUin="jdt:e_class:src:application.logic.QuizDelegationFacade">
+			<property name="bounds" value="95,270,257,137"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:application.logic.QuizDelegationFacade:Model">
+				<property name="sourceAnchor" value="237,275"/>
+				<property name="targetAnchor" value="237,140"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.api.Model">
+			<property name="bounds" value="175,55,174,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.APIFactory">
+			<property name="bounds" value="575,55,180,94"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:application.logic.APIFactory:lnkModel">
+				<property name="sourceAnchor" value="580,100"/>
+				<property name="targetAnchor" value="354,100"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.DefaultAPIFactory">
+			<property name="bounds" value="535,255,200,137"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:application.logic.DefaultAPIFactory:factory">
+				<property name="sourceAnchor" value="624,260"/>
+				<property name="targetAnchor" value="624,154"/>
+				<property name="$hidden" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:application.logic.DefaultAPIFactory:model">
+				<property name="sourceAnchor" value="540,336"/>
+				<property name="targetAnchor" value="357,336"/>
+				<property name="$hidden" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_impl:src:application.logic.DefaultAPIFactory:APIFactory">
+				<property name="sourceAnchor" value="616,260"/>
+				<property name="targetAnchor" value="616,154"/>
+			</reference>
+			<reference referencedUin="jdt:e_field:src:application.logic.DefaultAPIFactory.factory">
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

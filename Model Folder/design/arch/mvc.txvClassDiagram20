@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhiwdgg4soo3sph7">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="mvc"/>
+		<reference referencedUin="jdt:e_class:src:application.logic.api.Subject">
+			<property name="bounds" value="295,295,181,101"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:e_tsig:src:application.logic.api.Subject:e_class">
+				<property name="bounds" value="156,-12,50,25"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:application.logic.api.Subject:registry">
+				<property name="sourceAnchor" value="300,340"/>
+				<property name="targetAnchor" value="235,340"/>
+				<reference referencedUin="label:clientCardinality:jdt:l_ast:src:application.logic.api.Subject:registry">
+					<property name="bounds" value="280,318,10,19"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:application.logic.api.Subject:registry">
+					<property name="bounds" value="245,318,21,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:application.logic.api.Subject:lnkVisitor">
+				<property name="sourceAnchor" value="300,340"/>
+				<property name="targetAnchor" value="235,340"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.gui.Controller">
+			<property name="bounds" value="135,95,167,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:application.gui.Controller:lnkView">
+				<property name="sourceAnchor" value="307,140"/>
+				<property name="targetAnchor" value="500,140"/>
+				<property name="bendpoints" value=""/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:application.gui.Controller:Visitor">
+				<property name="sourceAnchor" value="202,180"/>
+				<property name="targetAnchor" value="202,300"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.gui.View">
+			<property name="bounds" value="495,95,139,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:application.gui.View:Visitor">
+				<property name="sourceAnchor" value="500,172"/>
+				<property name="targetAnchor" value="231,300"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.api.Visitor">
+			<property name="bounds" value="55,295,175,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.QuizDelegationFacade">
+			<property name="bounds" value="675,435,261,122"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:application.logic.QuizDelegationFacade:Model">
+				<property name="sourceAnchor" value="757,440"/>
+				<property name="targetAnchor" value="757,380"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:application.logic.QuizDelegationFacade:registry">
+				<property name="sourceAnchor" value="680,474"/>
+				<property name="targetAnchor" value="235,362"/>
+				<property name="$hidden" value="true"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:application.logic.QuizDelegationFacade:registry">
+					<property name="bounds" value="245,342,21,19"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:jdt:l_ast:src:application.logic.QuizDelegationFacade:registry">
+					<property name="bounds" value="660,447,10,19"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.api.Model">
+			<property name="bounds" value="675,295,174,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:application.logic.api.Model:Subject">
+				<property name="sourceAnchor" value="680,360"/>
+				<property name="targetAnchor" value="481,360"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:application.logic.api.Model:lnkController">
+				<property name="sourceAnchor" value="680,310"/>
+				<property name="targetAnchor" value="307,171"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:application.logic.api.Model:lnkView">
+				<property name="sourceAnchor" value="719,300"/>
+				<property name="targetAnchor" value="606,180"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

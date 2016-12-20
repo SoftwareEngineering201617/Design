@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhiwdgd9gh3igstr">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="arch"/>
+		<reference referencedUin="design:view:::V1hexuhiwdfc3ciktna0y">
+			<property name="bounds" value="95,135,115,123"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhiwdfca1w-crnzeo">
+			<property name="bounds" value="96,295,99,60"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhiwdfbx1r-2yyayb">
+			<property name="bounds" value="100,-5,92,91"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:link:::ieje0riwdgezox5z2d4b">
+			<property name="sourceAnchor" value="125,91"/>
+			<property name="targetAnchor" value="125,140"/>
+			<property name="bendpoints" value=""/>
+			<reference referencedUin="label:label:design:link:::ieje0riwdgezox5z2d4b">
+				<property name="bounds" value="128,106,35,19"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:link:::ieje0riwdgf6f3-f33g79">
+			<property name="sourceAnchor" value="129,263"/>
+			<property name="targetAnchor" value="129,300"/>
+			<property name="bendpoints" value=""/>
+			<reference referencedUin="label:label:design:link:::ieje0riwdgf6f3-f33g79">
+				<property name="bounds" value="132,272,35,19"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhiwdfcpev-g7fe2r">
+			<property name="bounds" value="295,151,120,107"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:link:::ieje0riwdi9xq8-a8mnfg">
+			<property name="sourceAnchor" value="300,197"/>
+			<property name="targetAnchor" value="215,197"/>
+			<property name="bendpoints" value=""/>
+			<reference referencedUin="label:label:design:link:::ieje0riwdi9xq8-a8mnfg">
+				<property name="bounds" value="229,175,57,19"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

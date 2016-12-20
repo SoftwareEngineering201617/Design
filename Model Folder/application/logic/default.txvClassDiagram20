@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhiwdfc3ciktna0y">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:view:::V1hexuhiwdfcpev-g7fe2r">
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds" value="5,5,91,123"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.QuizDelegationFacade">
+			<property name="bounds" value="115,255,152,137"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:application.logic.QuizDelegationFacade:Model">
+				<property name="sourceAnchor" value="220,260"/>
+				<property name="targetAnchor" value="220,180"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

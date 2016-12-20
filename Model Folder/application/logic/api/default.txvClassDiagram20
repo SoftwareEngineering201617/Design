@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhiwdfcpev-g7fe2r">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:application.logic.api.Subject">
+			<property name="bounds" value="275,35,95,94"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_tsig:src:application.logic.api.Subject:e_class">
+				<property name="bounds" value="55,-12,50,25"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:application.logic.api.Subject:lnkVisitor">
+				<property name="sourceAnchor" value="280,80"/>
+				<property name="targetAnchor" value="215,80"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.api.Information">
+			<property name="bounds" value="5,5,95,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:application.logic.api.Visitor">
+			<property name="bounds" value="115,35,95,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_tsig:src:application.logic.api.Visitor:e_class">
+				<property name="bounds" value="55,-12,50,25"/>
+			</reference>
+			<reference referencedUin="jdt:e_tsig:src:application.logic.api.Observer:e_class">
+				<property name="bounds" value="55,-12,50,25"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>
